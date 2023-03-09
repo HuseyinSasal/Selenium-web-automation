@@ -154,43 +154,9 @@ else:
 # result => paircar2 is greater than paircar1
 
 
-#-------------- 1st day 1. Homework
-#Example 1
-
-#Use python which calculates the average of 3 midterm (60%) and final (40%) grades received from the user.
-
-visa1 = float(input('visa1:'))
-visa2 = float(input('visa2: '))
-visa3 = float(input('visa3: '))
-final = float(input('final : '))
-
-average = ((visa1+visa2+visa3)/3)*0.6 + (final * 0.4)
-
-result = (average>=50) and (final>=50)
-result = (average >=50) or (final>=70)
 
 
 
-if (average>=50):
+
+
      
-     if (final>=50):
-          print(f'student average: {average} and passa status: successful')
-     else:
-          print(f'student average: {average} and pass status: failed. You must get at least 50 from the final.')
-else:
-     print(f'student average:: {average} and pass status: failed')
-
-
-
-if (ortalama >=50):
-    print(f'student average:: {average} and passa status: successful')
-else:
-    if (final>=70):
-        print(f'student average:: {average} and pass status: successful. You passed the final because you got at least 70.')
-
-    print(f'student average: {average} and pass status: failed')
-
-
-
-
-#Example 2
